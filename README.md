@@ -1,2 +1,1 @@
-# ANZSC2021
-Australia and New Zealand Statistical Conference
+# Predicting Heart Disease with Machine Learning
