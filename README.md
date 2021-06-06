@@ -7,15 +7,15 @@ The data that is used for the purpose of this study was hosted at a Competition 
 
 ## Data Source Description
 There are 14 columns in the dataset, where the patient_id column is a unique and random identifier. The remaining 13 features are described in the section below. <br/>
-• slope_of_peak_exercise_st_segment (type: int) : the slope of the peak exercise ST segment, an electrocardiography read out indicating quality of blood flow to the heart <br/>
-•	thal (type: categorical): results of thallium stress test measuring blood flow to the heart, with possible values normal, fixed defect, reversible defect <br/>
+• slope_of_peak_exercise_st_segment (type: int) : the slope of the peak exercise [ST segment](https://en.wikipedia.org/wiki/ST_segment), an electrocardiography read out indicating quality of blood flow to the heart <br/>
+•	thal (type: categorical): results of [thallium stress test](https://www.ucsfbenioffchildrens.org/medical-tests/007201) measuring blood flow to the heart, with possible values normal, fixed defect, reversible defect <br/>
 •	resting_blood_pressure (type: int): resting blood pressure <br/>
 •	chest_pain_type (type: int): chest pain type (4 values) <br/>
 •	num_major_vessels (type: int): number of major vessels (0-3) colored by fluoroscopy <br/>
 •	fasting_blood_sugar_gt_120_mg_per_dl (type: binary): fasting blood sugar > 120 mg/dl <br/>
 •	resting_ekg_results (type: int): resting electrocardiographic results (values 0,1,2) <br/>
 •	serum_cholesterol_mg_per_dl (type: int): serum cholestoral in mg/dl <br/>
-•	oldpeak_eq_st_depression (type: float): oldpeak = ST depression induced by exercise relative to rest, a measure of abnormality in electrocardiograms <br/>
+•	oldpeak_eq_st_depression (type: float): oldpeak = [ST depression](https://en.wikipedia.org/wiki/ST_depression) induced by exercise relative to rest, a measure of abnormality in electrocardiograms <br/>
 •	sex (type: binary): 0: female, 1: male <br/>
 •	age (type: int): age in years <br/>
 •	max_heart_rate_achieved (type: int): maximum heart rate achieved (beats per minute) <br/>
