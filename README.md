@@ -6,7 +6,7 @@ The study collects various measurements on patient health and cardiovascular sta
 The data that is used for the purpose of this study was hosted at a Competition by [DRIVENDATA](https://www.drivendata.org/competitions/54/machine-learning-with-a-heart/). 
 
 ## Data Source Description
-There are 14 columns in the dataset, where the patient_id column is a unique and random identifier. The remaining 13 features are described in the section below. <br/>
+There are 14 columns in the dataset, where the patient_id column is a unique and random identifier. The remaining 13 features are described in the section below: <br/>
 • slope_of_peak_exercise_st_segment (type: int) : the slope of the peak exercise [ST segment](https://en.wikipedia.org/wiki/ST_segment), an electrocardiography read out indicating quality of blood flow to the heart <br/>
 •	thal (type: categorical): results of [thallium stress test](https://www.ucsfbenioffchildrens.org/medical-tests/007201) measuring blood flow to the heart, with possible values normal, fixed defect, reversible defect <br/>
 •	resting_blood_pressure (type: int): resting blood pressure <br/>
