@@ -3,4 +3,4 @@ The backbone of this study is a dataset from a study of heart disease that has b
 
 ## Data Source
 The study collects various measurements on patient health and cardiovascular statistics, and of course makes patient identities anonymous. Data is provided courtesy of the Cleveland Heart Disease Database via the UCI Machine Learning repository. 
-The data that is used for the purpose of this study was hosted at a Competition at [DRIVENDATA] (https://www.drivendata.org/competitions/54/machine-learning-with-a-heart/)
+The data that is used for the purpose of this study was hosted at a Competition at [DRIVENDATA](https://www.drivendata.org/competitions/54/machine-learning-with-a-heart/)
