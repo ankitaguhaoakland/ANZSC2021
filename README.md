@@ -20,4 +20,5 @@ There are 14 columns in the dataset, where the patient_id column is a unique and
 •	age (type: int): age in years <br/>
 •	max_heart_rate_achieved (type: int): maximum heart rate achieved (beats per minute) <br/>
 •	exercise_induced_angina (type: binary): exercise-induced chest pain (0: False, 1: True) <br/>
-For further additional information, refer to the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/statlog+(heart)).
+
+For further additional information related to the attributes/columns, refer to the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/statlog+(heart)).
