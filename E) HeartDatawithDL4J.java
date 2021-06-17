@@ -37,14 +37,14 @@ public class HeartData {
         recordReader.initialize(new FileSplit(new ClassPathResource("HeartData.txt").getFile())); //Method is the initialize. Filesplit is the Method to split the data to Training & Test Data
 
         //Second: the RecordReaderDataSetIterator handles conversion to DataSet objects, ready for use in neural network
-        int labelIndex = 13;     //Since the labels for the Wine starts at the 1st column, out of the Total 14 Columns in the CSV File.
-        int numClasses = 2;     //Classes have integer values 1, 2 or 3. Total 4 classes (starting from 0 to 3) in the wine data set.
-        int batchSize = 180;    //The number of training instances used in 1 iteration. Wine data set: 178 examples total. We are loading all of them into one DataSet (not recommended for large data sets)
+        int labelIndex = 13;     //Since the labels for the Heart starts at the last column, out of the Total 14 Columns in the CSV File.
+        int numClasses = 2;     //Classes have integer values 0, 1. Total 2 classes (starting from 0 to 1) in the heart data set.
+        int batchSize = 180;    //The number of training instances used in 1 iteration. Heart data set: 180 examples total. We are loading all of them into one DataSet (not recommended for large data sets)
 
         DataSetIterator iterator = new RecordReaderDataSetIterator(recordReader,batchSize,labelIndex,numClasses);
         DataSet allData = iterator.next(); //it would point to the next record.
         allData.shuffle(); // Shuffle the values in a single column, make predictions using the resulting data-set. Use these predictions and the true target values to calculate how much the loss function suffered from shuffling. That performance deterioration measures the importance of the variable you just shuffled.
-        SplitTestAndTrain testAndTrain = allData.splitTestAndTrain(0.80);  //Use 65% of data for training
+        SplitTestAndTrain testAndTrain = allData.splitTestAndTrain(0.80);  //Used 80% of data for training
 
         DataSet trainingData = testAndTrain.getTrain();
         DataSet testData = testAndTrain.getTest();
