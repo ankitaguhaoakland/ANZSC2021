@@ -82,7 +82,7 @@ public class HeartData {
         //run the model
         MultiLayerNetwork model = new MultiLayerNetwork(conf);
         model.init();
-        model.setListeners(new ScoreIterationListener(100)); // ScoreIterationListener will simply print the current error score for your network.Iterations will run for < 1000 times & starting from 0, each Iteration will jump to another 100 times.
+        model.setListeners(new ScoreIterationListener(100)); // ScoreIterationListener will simply print the current error score for your network.Iterations will run for < 3999 times & starting from 0, each Iteration will jump to another 100 times.
 
         for(int i=0; i<4000; i++ ) {
             model.fit(trainingData);
