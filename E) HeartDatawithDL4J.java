@@ -30,7 +30,7 @@ public class HeartData {
 
     public static void main(String[] args) throws  Exception {
 
-        //First: get the dataset using the record reader. CSVRecordReader handles loading/parsing
+        //First: get the dataset using the record reader. CSVRecordReader handles loading or parsing
         int numLinesToSkip = 0;
         char delimiter = ',';
         RecordReader recordReader = new CSVRecordReader(numLinesToSkip,delimiter); //recordReader is the Variable. Instance of the Class. CSVRecordReader is the Class that takes 2 arguments that are inside the parenthesis
